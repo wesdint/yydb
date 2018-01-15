@@ -1,0 +1,10 @@
+// 项目接口请求相关的参数
+export const APP_PROP_APP_TYPE = 'yydb'
+export const APP_PROP_CLIENT = 'wx'
+export const APP_PROP_CUID = 'NOT_FOUND'
+export const APP_PROP_VERSION = 'v1.0'
+export const APP_PROP_FORMAT = 'json'
+export const APP_PROP_SECRET = 'Er78s1hcT4Tyoaj2'
+export const APP_PROP_HIG = '0'
+export const APP_PROP_LAT = '0'
+export const APP_PROP_LNG = '0'
