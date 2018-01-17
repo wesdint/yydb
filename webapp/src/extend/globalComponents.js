@@ -1,10 +1,10 @@
 import Vue from 'vue'
-import BmLoading from '../components/base/BmLoading'
-import BmPageMain from '../components/base/BmPageMain'
+import loading from '../components/base/loading'
+import pageMain from '../components/base/pageMain'
 
 export default {
   register () {
-    Vue.component(BmPageMain.name, BmPageMain)
-    Vue.$bmloading = Vue.prototype.$bmloading = BmLoading
+    Vue.component(pageMain.name, pageMain)
+    Vue.$loading = Vue.prototype.$loading = loading
   }
 }

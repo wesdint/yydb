@@ -1,13 +1,13 @@
 import Vue from 'vue'
-import bmLoading from './BmLoading'
+import loading from './loading'
 
-const BmLoading = Vue.extend(bmLoading)
+const Loading = Vue.extend(loading)
 let instance
 
 export default {
   open (flag = true) {
     if (!instance) {
-      instance = new BmLoading({
+      instance = new Loading({
         el: document.createElement('div')
       })
       document.body.appendChild(instance.$el)

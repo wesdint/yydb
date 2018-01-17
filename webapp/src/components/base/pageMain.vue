@@ -26,6 +26,6 @@
 
 <script>
   export default {
-    name: 'bm-page-main'
+    name: 'page-main'
   }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="bm-loading-content">
+  <div class="loading-content">
     <div v-show="isShow" class="loading-mask">
       <mt-spinner v-show="isAnimate" class="spinner" type="triple-bounce" color="#2d7af7"></mt-spinner>
     </div>
@@ -25,7 +25,7 @@
 
 <script>
   export default {
-    name: 'bm-loading',
+    name: 'loading',
     data () {
       return {
         isShow: false,
