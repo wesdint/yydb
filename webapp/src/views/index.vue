@@ -4,6 +4,13 @@
      <div class="header">
         <div class="left_icon"></div>
      </div>
+     <div class="swipe_area">
+       <mt-swipe :auto="4000">
+         <mt-swipe-item>1</mt-swipe-item>
+         <mt-swipe-item>2</mt-swipe-item>
+         <mt-swipe-item>3</mt-swipe-item>
+       </mt-swipe>
+     </div>
    </div>
  </page-main>
 </template>
