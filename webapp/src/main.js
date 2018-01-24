@@ -9,6 +9,7 @@ import appInstance from './appInstance'
 import MintUI from 'mint-ui'
 // import BMComponent from 'bm-vue-component'
 import 'mint-ui/lib/style.css'
+import './style/main.less'
 // import 'vconsole
 // 防止生产环境下提供 vue 组件提示
 Vue.config.productionTip = false
