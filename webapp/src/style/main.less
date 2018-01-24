@@ -1,0 +1,54 @@
+@import './import';
+/*媒体查询*/
+html{
+  font-size: 50px;
+  font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+/* 小屏幕（平板，大于等于 320px） */
+@media (min-width:320px) {
+  html{
+    font-size: 50px;
+  }
+}
+
+/* 小屏幕（iphone 6，大于等于 375px） */
+@media (min-width:375px) {
+  html{
+    font-size: 58.59375px;
+  }
+}
+
+/* 中等屏幕（桌面显示器，大于等于 430px） */
+@media (min-width: 414px) {
+  html{
+    font-size: 64.6875px;
+  }
+}
+
+
+/* 中等屏幕（桌面显示器，大于等于 430px） */
+@media (min-width: 430px) {
+  html{
+    font-size: 67.1875px;
+  }
+}
+
+/* 大屏幕（大桌面显示器，大于等于 540px） */
+@media (min-width:540px) {
+  html{
+    font-size: 84.375px;
+  }
+}
+
+/* 顶部导航栏 */
+.top {
+  top: @navHeight !important;
+}
+/* 底部导航栏 */
+.bottom {
+  bottom: @footerHeight !important;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: @text_color3;
+}
