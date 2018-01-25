@@ -16,7 +16,7 @@
        </div>
        <div class="column_title">近期开奖</div>
        <div class="sup_swipe">
-         <mt-swipe :auto="0" :show-indicators="false">
+         <mt-swipe :auto="4000" :show-indicators="false">
            <mt-swipe-item class="di_swipe clearfix" v-for="item in turnRecentLottery" :key="item[0].url">
              <div class="half_w">
                <router-link class="swipe_content" to="/" @click.native="log(item[0])">
@@ -143,6 +143,7 @@
    height: 2.4rem;
    width: 100%;
    border-bottom: 1px solid #e0e0e0;
+   text-align: center;
    .swipe_img {
      width: 100%;
      height: 100%;
@@ -153,6 +154,7 @@
     width: 100%;
     padding: 0 10px 10px 10px;
     border-bottom: 1px solid #e0e0e0;
+    text-align: center;
     .swipe_img {
       width: 100%;
       max-height: 80px;
